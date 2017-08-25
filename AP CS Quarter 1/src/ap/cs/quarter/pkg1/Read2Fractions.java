@@ -1,36 +1,35 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
+ * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package ap.cs.quarter.pkg1;
-
 import java.util.Scanner;
 /**
  *
- * @author Matthew
+ * @author matthew.gonzalgo
  */
 public class Read2Fractions {
-    
 public static void main(String[] args) {
-int a, b, c, d, addNumerator, addDenominator;
+int a, b, c, d, addNumerator, commonDenominator, newNum1, newNum2;
 Scanner in = new Scanner(System.in);
-System.out.println("enter the first numerator");
+System.out.println("please kind sir, enter the first numerator");
 a = in.nextInt();
 
-System.out.println("enter the second numerator");
+System.out.println("please kind sir, enter the second numerator");
 c = in.nextInt();
 
-addNumerator = a + c;
-
-System.out.println("enter the first denomiator");
+System.out.println("please kind sir, enter the first denomiator");
 b = in.nextInt();
 
-System.out.println("enter the second denominator");
+System.out.println("please kind sir, enter the second denominator");
 d = in.nextInt();
 
-addDenominator = b + d;
+newNum1 = a * d;
+newNum2 = c * b;
 
-System.out.println(addNumerator + "/" + addDenominator);
+addNumerator = newNum1 + newNum2;
+
+commonDenominator = b * d;
+
+System.out.println(addNumerator + "/" + commonDenominator);
 }    
 }
