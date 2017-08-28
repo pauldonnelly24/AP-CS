@@ -1,0 +1,27 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package quarter1;
+import java.util.Scanner;
+/**
+ *
+ * @author matthew.gonzalgo
+ */
+public class Read2Names {
+
+public static void main (String[] args) {
+String gender, fullName;
+int age, height; 
+Scanner in = new Scanner(System.in);
+System.out.println("What is your gender?");
+gender = in.nextLine;
+System.out.println("What is your full name?");
+fullName = in.nextLine;
+System.out.println("How old are you?")
+age = in.nextInt;
+System.out.println("How tall are you in inches?");
+height = in.nextInt;
+System.out.println("Hello
+}
+}
