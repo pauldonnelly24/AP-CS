@@ -17,7 +17,7 @@ a = in.nextInt();
 System.out.println("please kind sir, enter the second numerator");
 c = in.nextInt();
 
-System.out.println("please kind sir, enter the first denomiator");
+System.out.println("please kind sir, enter the first denominator");
 b = in.nextInt();
 
 System.out.println("please kind sir, enter the second denominator");
