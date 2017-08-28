@@ -22,6 +22,7 @@ System.out.println("How old are you?")
 age = in.nextInt;
 System.out.println("How tall are you in inches?");
 height = in.nextInt;
-System.out.println("Hello
+System.out.println("Hello " + fullName);
+System.out.println("You are a " + gender + " " + age + "years old, and " + height + " inches tall!");
 }
 }
