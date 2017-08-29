@@ -8,7 +8,7 @@ import java.util.Scanner;
  *
  * @author matthew.gonzalgo
  */
-public class Read2Names {
+public class WhoAreYou {
 
 public static void main (String[] args) {
 String gender, fullName;
