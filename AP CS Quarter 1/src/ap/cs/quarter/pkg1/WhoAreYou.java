@@ -39,5 +39,6 @@ height = in.nextInt();
 
 System.out.println("Hello " + title + " " fullName + "!");
 System.out.println("You are a " + age + " year old " gender + " who is " + height + " inches tall!");
+    //everything works without an error message except these last two lines
 }
 }
